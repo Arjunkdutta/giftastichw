@@ -1,0 +1,47 @@
+body {
+    background: url("https://cdn2.vectorstock.com/i/1000x1000/84/81/black-white-car-logos-vector-11718481.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+    font-family: Lobster;
+}
+
+.ratings {
+    color: blue;
+    font-family: avenir;
+    font-size: 18px;
+}
+
+h1 {
+    color: green;
+    font-size: 45px;
+}
+
+.btn-primary {
+    margin-left: 10px;
+    background:white;
+    color: green;
+}
+
+@media screen and (max-width: 480px) {
+    .movImage {
+        width: 500px;
+        height: 500px;
+    }
+    body {
+        background-color: blue;
+    }
+}
+
+.form-control {
+    width: 30%;
+}
+
+#add {
+    font-size: 20px;
+    color: green;
+}
